@@ -24,6 +24,8 @@ spring:
     url: jdbc:mysql://localhost:3306/halodb?characterEncoding=utf8&serverTimezone=GMT%2B8&useSSL=false
     username: root
     password: root
+  resources:
+    static-locations: classpath:/static/
 
   h2:
     console:
